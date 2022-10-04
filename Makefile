@@ -1,5 +1,5 @@
-prog1: main.c
-	gcc main.c -o prog1
+signals: signal.c
+	gcc signal.c -o signalab 
 
-prog2: main2.c
-	gcc main2.c -o prog2
+signals2: timer.c
+	gcc timer.c -o signalslab2
